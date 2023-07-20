@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h2 class="logo"> 
+            <a href="index.html" style="text-decoration: none;" >TGM</a>
+        </h2>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="#">Gallary</a>
+            <a href="about.html">About Us</a>
+            <a href="#"></a>
+            <button class="btnLogin-popup">Sign in</button>
+
+        </nav>
+    </header>
+ 
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close">
+
+        </ion-icon></span>
+        
+        
+        <div class="form-box register">
+         <h2>Registration</h2>
+         <form action="#">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="person"></ion-icon></span>
+                <input type="username" required>
+                <label>Username</label>
+            </div>
+
+            <div class="input-box">
+                 <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                 <input type="email" required>
+                 <label>Email</label>
+             </div>
+
+             <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+
+            <div class="remember-forgot">
+                <label><input type="checkbox">I agree to the terms & condition</label>
+                
+            </div>
+            <button type="submit" class="btn">Register</button>
+
+            <div class="login">
+                <p>Already have an account?
+                <a href="#"  
+                    class="register-link">Login</a> </p>
+                
+            </div>
+ 
+
+
+                
+        </form>
+    </div>
+
+    <style>
+        a { color: white;}
+        
+    </style>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
